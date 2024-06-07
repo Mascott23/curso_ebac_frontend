@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
+
 <body>
    <h1>Formulário de cadastro</h1>
    <form>
@@ -14,9 +16,10 @@
    <label for="email"><strong>E-mail:</strong></label>
    <input id="email" type="email"/><br />
    <br />
-   <label for="senha"><strong>Senha:</strong></label>
+   <label style="color:red" for="senha"><strong>Senha:</strong></label>
    <input id="senha" type="password"/><br/>
-   <button type="submit">Cadastrar</button>
+   <button class="botaoenvio" type="submit">Cadastrar</button>
+   <button class="botaoapagar" type="reset">Apagar Dados</button>
    </form>
 <hr>
 </body>
