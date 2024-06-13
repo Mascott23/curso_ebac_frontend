@@ -101,8 +101,18 @@ section h2 {
     background-color: #ff9f1a;
 }
 
-#gastronomia {
-    background-color: rgba(178, 34, 34);
+#gastronomic {
+    background-color: rgba(245, 198, 112);
 }
 
-#
+#gastronomic .articles article a {
+    background-color: #ff4500;
+}
+
+#turism {
+    background-color: rgba(176, 196, 222);
+}
+
+#turism .articles article a {
+    background-color: #4682b4;
+}
